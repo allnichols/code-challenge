@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.5.3/dist/css/foundation.min.css" integrity="sha256-xpOKVlYXzQ3P03j397+jWFZLMBXLES3IiryeClgU5og= sha384-gP4DhqyoT9b1vaikoHi9XQ8If7UNLO73JFOOlQV1RATrA7D0O7TjJZifac6NwPps sha512-AKwIib1E+xDeXe0tCgbc9uSvPwVYl6Awj7xl0FoaPFostZHOuDQ1abnDNCYtxL/HWEnVOMrFyf91TDgLPi9pNg==" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Sawarabi+Gothic" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cabin+Condensed" rel="stylesheet">
+    <title>Black Gold</title>
+  </head>
+  <body>
+<!--Navigation Section  -->
+    <section class="navigation">
+
+      <div class="logo">
+        <h2>Black<span>Gold</span> </h2>
+      </div>
+
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#tech">Techniques</a></li>
+          <li><a href="#partners">Our Partners</a></li>
+          <li><a href="#become-partner">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="burger-container">
+          <p>MENU</p>
+        <div class="burger" id="burger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+
+      </div>
+    </section>
+    <!-- End of Navigation -->
+
+<!-- Hero Section -->
+    <section class="hero">
+
+      <div class="hero-content">
+          <h1>Specialists in Oil & Gas Extraction</h1>
+          <h5>Lorem ipsum dolor sit amet,
+             Lorem ipsum dolor sit amet,
+            consectetur adipisicing elit,
+            consectetur adipisicing elit.
+          </h5>
+          <a href="#become-partner" class="button">Become a Partner</a>
+
+      </div>
+        <a href="#about" class="arrow">&#8595;</a>
+    </section>
+    <!-- End of Hero Section -->
+
+<!-- About Section  -->
+    <section class="about" id="about">
+      <div class="grid-container">
+        <div class="grid-x">
+
+          <div class="cell small-12 large-8 main-image">
+            <img src="assets/oil-field.jpg" alt="oil rig">
+          </div>
+
+          <div class="cell small-12 large-4 main-text">
+            <h1 class="title">Oil Recovery</h1>
+
+            <p class="hide-text">Our Enhanced Oil Recovery (EOR) also called tertiary recovery,
+              is the extraction of crude oil from an oil field that cannot be
+              extracted otherwise. <a href="#!" class="tool">We extract 50% to 70% or more of a reservoir's oil,
+              compared to 20% to 40% of competitors
+                <span class="tool-content">
+                    <img src="assets/Top_Oil.png" alt="image">
+                </span>
+            </a>.</p>
+
+              <p class="hide-text-2">According to the US Department of Energy,
+                there are three primary techniques for EOR:
+                thermal, gas injection, and chemical injection.
+                We perform all three.</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+<!-- end  -->
+
+
+
+<!-- Techniques Section -->
+  <section class="techniques" id="tech">
+    <h1 class="title">Techniques</h1>
+    <div class="grid-container">
+        <div class="grid-x grid-margin-x text-center">
+
+            <div class="cell small-12 medium-4 box">
+              <img src="assets/oil-rig.svg" alt="thermal" class="icon">
+              <h1 class="icon-title">Thermal</h1>
+              <button type="button" name="button" class="button hide-btn" id="thermal">Learn More</button>
+            </div>
+
+            <div class="cell small-12 medium-4 box">
+              <img src="assets/pump-jack.svg" alt="pump" class="icon">
+              <h1 class="icon-title">Gas</h1>
+              <button type="button" name="button" class="button hide-btn" id="gas">Learn More</button>
+            </div>
+
+            <div class="cell small-12 medium-4 box">
+              <img src="assets/molecule.svg" alt="molecule" class="icon">
+              <h1 class="icon-title">Chemical</h1>
+              <button type="button" name="button" class="button hide-btn" id="chemical">Learn More</button>
+            </div>
+
+        </div>
+    </div>
+    <div class="modal-overlay" id="modal">
+      <div class="modal-content thermal" id="thermal">
+        <span class="close-x">&times;</span>
+        <img src="assets/thermal.jpg" alt="thermal extraction">
+        <p>In this approach, various methods are used to heat the crude oil in the formation to reduce its viscosity
+          and/or vaporize part of the oil and thus decrease the mobility ratio.
+          The increased heat reduces the surface tension and increases the permeability of the oil.
+          The heated oil may also vaporize and then condense forming improved oil.</p>
+      </div>
+      <div class="modal-content gas" id="gas">
+        <span class="close-x">&times;</span>
+        <img src="assets/gas-injection.jpg" alt="gas injection">
+        <p>Gas injection or miscible flooding is presently the most-commonly used approach in enhanced oil recovery.
+          Miscible flooding is a general term for injection processes that introduce miscible gases into the reservoir.
+          A miscible displacement process maintains reservoir pressure and improves oil displacement because the interfacial
+          tension between oil and water is reduced. </p>
+      </div>
+      <div class="modal-content chemical" id="chemical">
+        <span class="close-x">&times;</span>
+        <img src="assets/chemical-injection.jpg" alt="">
+        <p>The injection of various chemicals, usually as dilute solutions,
+          have been used to aid mobility and the reduction in surface tension. Injection of alkaline or caustic solutions
+          into reservoirs with oil that have organic acids naturally occurring in the oil will result in the production
+          of soap that may lower the interfacial tension enough to increase production</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="quote-section">
+    <div class="grid-container">
+      <div class="quote">
+        <p class="hide-quote">"A century ago, petroleum - what we call oil - was just an obscure commodity; today it is almost as vital to human existence as water."</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="partners" id="partners">
+      <h1 class="title">Our Partners</h1>
+      <div class="grid-container">
+        <div class="grid-x align-middle text-center">
+          <div class="cell small-6 large-2">
+            <img class="partner a" src="assets/exxonmobil-logo.png" alt="exxon mobile">
+          </div>
+          <div class="cell small-6 large-2">
+            <img class="partner b" src="assets/pemex-logo.png" alt="">
+          </div>
+          <div class="cell small-6 large-2">
+              <img class="partner c" src="assets/petrochina-logo.png" alt="petrochina">
+          </div>
+          <div class="cell small-6 large-2">
+              <img class="partner d" src="assets/aramco.png" alt="aramco">
+          </div>
+          <div class="cell small-6 large-2">
+            <img class="partner e" src="assets/shell.png" alt="shell">
+          </div>
+          <div class="cell small-6 large-2">
+            <img class="partner f" src="assets/chevron.png" alt="chevron">
+          </div>
+        </div>
+      </div>
+
+
+  </section>
+
+  <section class="form-section" id="become-partner">
+    <h1 class="title">Become a Partner</h1>
+    <div class="grid-x">
+      <form class="form" action="index.html" method="post">
+        <input type="text" name="name" value="" placeholder="Name">
+        <input type="email" name="email" value="" placeholder="Email">
+        <input type="tel" name="phone" value="" placeholder="Phone">
+        <input type="text" name="company" value="" placeholder="Company">
+        <button type="submit" name="button" class="button">Submit</button>
+      </form>
+    </div>
+  </section>
+
+<!-- End -->
+
+<footer>
+  <div class="credit">
+    <p>
+        Icons made by <a href="https://www.flaticon.com/authors/eucalyp" title="Eucalyp">Eucalyp</a>
+        <a href="http://creativecommons.org/licenses/by/3.0/"title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a>
+    </p>
+
+  </div>
+</footer>
+<div>
+
+
+
+</div>
+
+  <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
