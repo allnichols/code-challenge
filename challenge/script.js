@@ -121,7 +121,6 @@ window.addEventListener('click', function(e){
 //Shrink nav on scroll
 const nav = document.querySelector('.navigation')
 const topOfNav = nav.offsetTop;
-// console.log(topOfNav);
 
 function fixNav(){
   if(window.scrollY >= 670){
